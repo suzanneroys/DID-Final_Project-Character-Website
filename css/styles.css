@@ -1,0 +1,483 @@
+
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Catamaran', sans-serif;
+	letter-spacing: 0.1em;
+	word-spacing: -0.1em;
+	background: rgba(236, 159, 242);
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+  background-image: url("https://www.okchicas.com/wp-content/uploads/2016/10/anim-arte.com-Empezar-Otra-Vez_2.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(227,75,141,0.2);
+ 
+   
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+header a {
+  float: right;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  padding: 40px 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+header a:hover {
+  background: rgba(236, 159, 242, 0.7);
+
+}
+.main_nav {
+	display: flex;
+	background-color: rgb(161,54,96);
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.main_nav li {	
+	width: 25%;
+}
+
+.main_nav a:hover {
+	background: rgba(236, 159, 242, 0.7);	
+}
+
+.main_nav a {
+	color: white;
+	font-size: 1em;
+	display: block;
+	text-align: center;
+	padding: 10px 0px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  color: white;
+  font-size: 5em;
+  background: rgba(236, 159, 242, 0.7);
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin: 200px 0px 0px -80px;
+  padding: 10px 50px;
+    
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+	padding: 50px 0px 70px 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	color: white;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2em;
+	padding: 10px 0px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	border-top: solid 1px rgb(161,54,96);
+	border-bottom: solid 1px rgb(161,54,96);
+	margin: 20px 10%;
+
+	
+}
+
+
+
+
+
+
+.songs {  
+  text-align: center;
+  padding-bottom: 50px;
+  background: rgba(236, 159, 242);
+
+}
+
+iframe {
+  align: center;
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  height: 500px;
+    
+}
+
+blockquote {
+  background: rgba(236, 159, 242);
+  padding: 150px 50px;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 600;
+  }
+
+blockquote i {
+	padding: 0px 20px;
+}
+cite {
+  display: block; 
+  margin: 10px 0px 0px 0px;
+  font-size: 0.7em;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#albumcover {
+	width: 50%;
+	margin: 20px 0px;
+}
+
+.ep {  
+
+  text-align: center;
+  padding-bottom: 50px;
+  background: rgba(236, 159, 242);
+}
+
+
+
+
+
+
+
+
+
+
+.profile_picture {
+	border-radius: 50%;
+	object-fit: cover;
+	padding: 5px;
+	border: solid 1px rgb(161,54,96);
+
+}
+
+figure {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+	margin-bottom: 30px;	
+}
+
+.news_story {
+	display: flex;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.news_story p.button {
+	text-align: right;
+	margin-right: 10%;
+
+}
+
+.divider{
+  border: 1px solid rgb(161,54,96);
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  clear: both;
+}
+
+.news_image {
+	width: 350px;
+	height: 300px;	
+	object-fit: cover;	
+}
+
+
+.news_title {	
+	text-align: center;
+}
+
+.news_text {
+	text-align: justify; 
+	margin: 20px 10%;
+	font-size: 1em;	
+}
+
+.navbutton{
+
+	font-weight: 500;
+	padding: 10px 20px;
+	background-color: rgba(161,54,96);
+	color: white;		
+}
+
+.navbutton:hover{
+	padding: 10px 20px;
+	background-color: rgba(161,54,96, 0.5);
+	color: white;
+}
+
+
+
+
+
+.story {
+	margin: 0px 10%;
+}
+
+.story p {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.story p.button {
+	text-align: center;
+}
+
+img.floatleft {
+	float: left;
+	width: 50%;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.tour_info {
+
+	background-image: url('../images/guitar.jpg');
+	box-shadow: inset 0 0 0 1000px rgba(227,75,141,0.7);
+	
+	width: 70%;
+	height: 500px;
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.tour_info p {
+	text-align: center;	
+	color: rgb(221, 234, 244);
+}
+
+#tour_name {
+	font-size: 7em;
+	letter-spacing: 0.12em;
+	padding: 50px 0px 0px 0px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#tour_location {
+	font-size: 3em;
+	letter-spacing:0.15em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	padding: 0px 0px 10px 0px;
+}
+
+.tour_time {
+	font-size: 1em;
+	letter-spacing:0.2em;
+	padding: 10px 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+.form{
+	margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact  {
+	line-height: 2em;	
+	margin: 0 10% 50px 10%;
+	text-align: center;
+}
+
+.mapouter {
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+  background-color: rgb(161,54,96);
+  color: white;
+}
+
+.footerblock{ 
+  margin: 0px 10%;   
+}
+
+.input {
+	text-align: center;
+}
+
+.small_text {
+	font-size: 0.8em;
+	padding-bottom: 10px;
+}
+
+footer i {
+  color: white;	
+  font-size: 1.5em;
+  padding: 10px 10px 30px 10px; 
+}
+
+footer i:hover {
+  color: rgba(236, 159, 242, 0.7);
+
+}
+
+hr {
+  border: 2px solid rgba(236, 159, 242);
+  border-radius: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+ #albumcover {
+	width: 80%;
+	margin: 20px 0px;
+}
+
+.main_nav {
+	display: block;
+	
+}
+
+.main_nav li{
+	width: 100%;
+}
+
+.main_nav a{
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 
+}
+
+iframe {
+	width: 95%;
+	height: 250px;
+	
+}
+
+header { 
+  width: 100%;
+  height: 300px;
+  display: block;
+  padding-top: 30px;
+   
+}
+
+h1 {
+font-size: 3em;   
+  letter-spacing: 0.1em;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+header p {
+  float: none;  
+  padding: 0px 0px;
+  margin: auto;
+
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+header a {
+  font-size: 1.5em;
+  padding: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  
+}
+
+
+
+}
